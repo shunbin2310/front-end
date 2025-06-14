@@ -11,6 +11,11 @@ update latest version from origin/main
 run project
 -npm run dev
 
+commit and push to github
+-git checkout branchxxx
+-git add .
+-git commit -m "commit message"
+-git push origin branchxxx
 
 hook
 useState - Add state to a component
@@ -22,3 +27,16 @@ useCallback - Cache a function so it’s not recreated on every render
 useReducer - Manage complex state logic, like a mini Redux
 useLayoutEffect - Like useEffect, but fires before the browser paints
 useImperativeHandle - Customize a ref from a parent component
+
+
+DOM - document object model
+example
+<p id="demo">Hello</p>
+const el = document.getElementById('demo');
+el.textContent = 'Goodbye';
+el.innerHTML = '<strong>Bold Text</strong>';
+el.style.color = 'red';
+el.style.backgroundColor = 'yellow';
+el.classList.add('active');
+el.classList.remove('active');
+el.classList.toggle('active');
