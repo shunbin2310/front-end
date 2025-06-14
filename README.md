@@ -6,7 +6,7 @@ update latest version from origin/main
 -git checkout branch(make sure the branch that you want to update)
 -git fetch origin
 -git merge main
--go source control press sync or key in git push
+-go source control press sync or key in git pull
 
 run project
 -npm run dev
