@@ -1,3 +1,9 @@
+create new react project
+-npm create vite@latest project-name
+
+install dependencies (every time clone react project need key in this in terminal)
+-npm install
+
 first step 
 -need key in first Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 -then key in npm install vite --save-dev in terminal
